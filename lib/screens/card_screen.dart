@@ -51,7 +51,7 @@ class _CardScreenState extends State<CardScreen> {
               return AppAlert(
                   title: Text('Password not set!'),
                   content: 'Goto settings?',
-                  cancel: 'Cancel',
+                  cancel: 'Not now',
                   exit: 'Settings',
                   onTap: () => AppSettings.openDeviceSettings()
                       .then((value) => Navigator.pop(context)));
